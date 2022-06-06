@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#content {
+    padding: 0 144px;
+}
+
+.content {
+    display: flex;
+}
+
+.content-header {
+    margin: 30px 0;
+    width: 100%;
+    height: 150px;
+    font-size: 55px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.content-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 30px 0;
+    border-radius: 10px;
+    border-bottom: 4px solid #e4e4e4;
+}
+
+#shop {
+    display: flex; 
+    border-bottom: 1px solid rgb(121, 76, 76); 
+    width: 180px; 
+    margin-top: 30px; 
+    border-radius: 5px;
+}
+
+.avashop-dqh {
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+.text-shop {
+    margin-top: 10px;
+    margin-left: 12px;
+    height: 40px;
+    text-align: center;
+    color: rgb(121, 76, 76);
+    font-size: 16px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.content-items {
+    margin-top: 35px;
+    width: 330px;
+    margin-left: 30px;
+}
+
+.nav-items {
+    display: flex;
+    margin-top: 15px;
+}
+
+.btn-edit {
+    width: 45px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,.09);
+    background: #fff;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.btn-edit:hover {
+    background: rgba(233, 230, 230, 0.363);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.text-edit {
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,.09);
+    border-bottom: 1px solid rgba(0,0,0,.09);
+}
+
+.text-edit p {  
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.text-coins {
+    display: flex;
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+}
+
+.ti-heart {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+}
+
+.ti-trash {
+    text-align: center;
+    font-size: 18px;
+}
+
+.navhover {
+    margin-top: 60px;
+    width: 120px;
+    height: 35px;
+    border: 1px solid rgba(187, 185, 185, 0.63);
+    border-radius: 5px;
+}
+
+.navhover:hover {
+    background-color: rgba(221, 221, 221, 0.63);
+    cursor: pointer;
+}
+
+.nav-pay {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.delete-items {
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.home {
+    margin-right: 150px;
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.pay {
+    width: 496px;
+    height: 100%;
+    background-color: #f1f1f1;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.list-products {
+    font-size: 16px;
+    padding: 0 32px 0 32px;
+    color: rgb(255, 80, 10);
+}
+
+.nameSP {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px 0 64px;
+}
+
+.texts {
+    font-size: 13px;
+    color: rgb(153, 153, 153);
+}
+
+.btn {
+    text-align: center;
+    font-size: 15px;
+    width: 200px; 
+    height: 50px; 
+    padding: 16px 32px;
+    margin-left: 120px;
+    margin-top: 40px;
+    background-color: rgb(255, 80, 10);
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 80, 10,0.7);
+    cursor: pointer;
+}
